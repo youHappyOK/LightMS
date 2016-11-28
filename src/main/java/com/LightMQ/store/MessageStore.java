@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import com.LightMS.common.message.MessageExt;
+import com.LightMS.common.protocol.heartbeat.SubscriptionData;
+
 
 /**
  * 存储层对外提供接口
@@ -13,7 +16,7 @@ import java.util.Set;
  * @since 2016年11月17日
  */
 
-public interface MessageStoreManager {
+public interface MessageStore {
 	/**
      * 重启时，加载数据
      */
